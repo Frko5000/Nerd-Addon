@@ -1,24 +1,25 @@
 {
   "schemaVersion": 1,
-  "id": "addon-template",
+  "id": "nerd-addon",
   "version": "${version}",
-  "name": "Addon Template",
-  "description": "An addon template for Meteor Client addons.",
+  "name": "Nerd Addon",
+  "description": "Meteor Client Addon For Nerds",
   "authors": [
-    "seasnail"
+    "Frko5000",
+    "KleinTimmii"
   ],
   "contact": {
-    "sources": "https://github.com/MeteorDevelopment/meteor-addon-template"
+    "sources": "https://github.com/Frko5000/nerd-addon"
   },
-  "icon": "assets/template/icon.png",
+  "icon": "assets/nerd-addon/icon.png",
   "environment": "client",
   "entrypoints": {
     "meteor": [
-      "com.example.addon.AddonTemplate"
+      "com.nerds.addon.NerdAddon"
     ]
   },
   "mixins": [
-    "addon-template.mixins.json"
+    "nerd-addon.mixins.json"
   ],
   "custom": {
     "meteor-client:color": "225,25,25",
