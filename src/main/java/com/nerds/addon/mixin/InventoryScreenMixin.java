@@ -1,4 +1,4 @@
-// skidded by ___hj from skid hack
+// credits to startdust addon https://github.com/0xTas/stardust
 
 
 
