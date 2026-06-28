@@ -1,10 +1,10 @@
 package com.nerds.addon;
 
+import com.mojang.logging.LogUtils;
 import com.nerds.addon.commands.CommandExample;
 import com.nerds.addon.hud.HudExample;
-import com.nerds.addon.modules.JoinLeaveNotify;
-import com.nerds.addon.modules.WindowTitleRenamer;
-import com.mojang.logging.LogUtils;
+
+import com.nerds.addon.modules.*;
 import meteordevelopment.meteorclient.addons.GithubRepo;
 import meteordevelopment.meteorclient.addons.MeteorAddon;
 import meteordevelopment.meteorclient.commands.Commands;
@@ -23,10 +23,12 @@ public class NerdAddon extends MeteorAddon {
     public void onInitialize() {
         LOG.info("Initializing Nerd Addon");
 
-        
+
         Modules.get().add(new JoinLeaveNotify());
 		Modules.get().add(new WindowTitleRenamer());
-		
+        Modules.get().add(new Loadouts());
+        Modules.get().add(new AutoEmoji());
+        Modules.get().add(new FastSwim());
 
         // Commands
         Commands.add(new CommandExample());
