@@ -1,28 +1,20 @@
 # Nerd addon
-
 🤓 Meteor client addon that designed for nerds
-
-### How to intstall
-
+### How to install
 #### Github Actions (Recommended)
-
-- Click the  `Actions` tab
+- Click the `Actions` tab
 - Click the last successful run
 - The jar file will be at under the `Artifacts` part  
   
-
 #### Clone Manually
-
 - Alternatively, build it on your local
-  ```bash
+```bash
   git clone https://github.com/Frko5000/Nerd-Addon.git
-  cd Nerd Addon
-  gradlew build
-  ```
-
+  cd Nerd-Addon
+  ./gradlew build
+```
 #### Contributing
 - Create a pull request :3 
-
 #### Issues
 - You can ask any questions on the issues tab
 - You can report the issues on here
