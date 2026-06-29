@@ -13,7 +13,7 @@
 
 #### Clone Manually
 
-- Alternatively, clone this repository using these commands for a clean history:
+- Alternatively, build it on your local
   ```bash
   git clone https://github.com/Frko5000/Nerd-Addon.git
   cd Nerd Addon
