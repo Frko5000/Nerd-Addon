@@ -1,4 +1,3 @@
-// skidded by ___hj from skid hack
 
 package com.nerds.addon.modules;
 
@@ -29,13 +28,11 @@ public class AutoEmoji extends Module {
 
         EMOJIS.put(":)", "☺");
         EMOJIS.put(":(", "☹");
-        EMOJIS.put("<3", "❤");
         EMOJIS.put(":D", "😀");
         EMOJIS.put(";)", "😉");
         EMOJIS.put("B)", "😎");
         EMOJIS.put(":/", "😕");
         EMOJIS.put(":O", "😮");
-        EMOJIS.put("xD", "😆");
 
 
         try {

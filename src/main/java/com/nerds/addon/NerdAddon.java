@@ -1,8 +1,6 @@
 package com.nerds.addon;
 
 import com.mojang.logging.LogUtils;
-import com.nerds.addon.commands.CommandExample;
-import com.nerds.addon.hud.HudExample;
 
 import com.nerds.addon.modules.*;
 import meteordevelopment.meteorclient.addons.GithubRepo;
@@ -31,10 +29,8 @@ public class NerdAddon extends MeteorAddon {
         Modules.get().add(new FastSwim());
 
         // Commands
-        Commands.add(new CommandExample());
 
         // HUD
-        Hud.get().register(HudExample.INFO);
     }
 
     @Override

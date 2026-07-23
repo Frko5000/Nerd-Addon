@@ -3,8 +3,8 @@
   "package": "com.nerds.addon.mixin",
   "compatibilityLevel": "JAVA_21",
   "client": [
-    "ExampleMixin",
-    "InventoryScreenMixin"
+    "InventoryScreenMixin",
+    "WindowTitleMixin"
   ],
   "injectors": {
     "defaultRequire": 1
