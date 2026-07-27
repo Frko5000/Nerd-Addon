@@ -66,7 +66,7 @@ public class Coords extends Command {
     }
 
     private void copyCoords(String name, double x, double y, double z) {
-        String text = "x: " + (int) Math.floor(x) + " y: " + (int) Math.floor(y) + " z: " + (int) Math.floor(z);
+        String text = (int) Math.floor(x) + " " + (int) Math.floor(y) + " " + (int) Math.floor(z);
         mc.keyboard.setClipboard(text);
         boolean isSelf = mc.player != null && name.equals(mc.player.getGameProfile().name());
         info("successfully copied " + (isSelf ? "your" : name + "'s") + " coordinates: \n" + text);
