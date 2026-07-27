@@ -18,7 +18,7 @@ public class AutoEmoji extends Module {
     private static final Map<String, String> EMOJIS = new HashMap<>();
 
     public AutoEmoji() {
-        super(NerdAddon.CATEGORY, "auto-emoji", "adds discord emojis like :sob: and other ones to format in chat");
+        super(NerdAddon.CATEGORY, "auto-emoji", "converts text shortcuts like :sob: into emojis in chat");
         loadEmojiMappings();
     }
 

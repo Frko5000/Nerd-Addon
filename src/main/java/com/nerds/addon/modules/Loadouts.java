@@ -29,7 +29,7 @@ import java.util.Map;
 
 public class Loadouts extends Module {
     public Loadouts() {
-        super(NerdAddon.CATEGORY, "Loadouts", "add button in inv to move item where you saved mastersigma");
+        super(NerdAddon.CATEGORY, "Loadouts", "save & auto-restore inventory loadouts");
     }
 
     public static final String LOADOUTS_FILE = "meteor-client/loadouts.json";

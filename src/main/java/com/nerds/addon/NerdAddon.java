@@ -2,6 +2,7 @@ package com.nerds.addon;
 
 import com.mojang.logging.LogUtils;
 
+import com.nerds.addon.commands.Coords;
 import com.nerds.addon.modules.*;
 import meteordevelopment.meteorclient.addons.GithubRepo;
 import meteordevelopment.meteorclient.addons.MeteorAddon;
@@ -28,7 +29,8 @@ public class NerdAddon extends MeteorAddon {
         Modules.get().add(new AutoEmoji());
         Modules.get().add(new FastSwim());
 
-        // Commands
+
+        Commands.add(new Coords());
 
         // HUD
     }
