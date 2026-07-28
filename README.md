@@ -4,7 +4,7 @@
 #### Github Actions (Recommended)
 - Click the `Actions` tab
 - Click the last successful run
-- The jar file will be at under the `Artifacts` part  
+- The jar file will be under the `Artifacts` part  
   
 #### Clone Manually
 - Alternatively, build it on your local
@@ -17,5 +17,5 @@
 - Create a pull request :3 
 #### Issues
 - You can ask any questions on the issues tab
-- You can report the issues on here
+- You can report the issues here
 - You can ask for new features
