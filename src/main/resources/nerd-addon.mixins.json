@@ -3,7 +3,6 @@
   "package": "com.nerds.addon.mixin",
   "compatibilityLevel": "JAVA_21",
   "client": [
-    "InventoryScreenMixin",
     "WindowTitleMixin"
   ],
   "injectors": {

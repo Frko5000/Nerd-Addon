@@ -26,14 +26,12 @@ public class NerdAddon extends MeteorAddon {
 
         Modules.get().add(new JoinLeaveNotify());
 		Modules.get().add(new WindowTitleRenamer());
-        Modules.get().add(new Loadouts());
         Modules.get().add(new AutoEmoji());
         Modules.get().add(new FastSwim());
 
 
         Commands.add(new Coords());
 
-        // HUD
         Hud.get().register(StatsHud.INFO);
     }
 
