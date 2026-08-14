@@ -40,7 +40,7 @@ public class WindowTitleRenamer extends Module {
     );
 
     public WindowTitleRenamer() {
-        super(NerdAddon.CATEGORY, "window-title-renamer", "Renames the window and icon.");
+        super(NerdAddon.CATEGORY, "window-title-renamer", "Customizes your minecraft window title and icon ");
     }
 
     @Override public void onActivate() {
