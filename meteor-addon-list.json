@@ -1,0 +1,10 @@
+{
+  "description": "A Meteor Client addon made for nerds",
+  "tags": [
+    "Utility",
+    "QoL"
+  ],
+  "supported_versions": ["1.21.11"],
+  "icon": "https://raw.githubusercontent.com/Frko5000/Nerd-Addon/main/src/main/resources/assets/nerd-addon/icon.png",
+  "homepage": "https://github.com/Frko5000/Nerd-Addon"
+}
