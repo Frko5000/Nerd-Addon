@@ -1,7 +1,3 @@
-// skidded by ___hj from skid hack
-
-
-
 package com.nerds.addon.modules;
 
 import com.nerds.addon.NerdAddon;
@@ -36,6 +32,7 @@ public class FastSwim extends Module {
     private void onTick(TickEvent.Pre event) {
         if (mc.player == null || mc.world == null) return;
         if (!mc.player.isTouchingWater()) return;
+        if (!mc.player.isSwimming()) return;
         if (mc.player.input == null) return;
 
         float forward = ((mc.options.forwardKey.isPressed() ? 1f : 0f) - (mc.options.backKey.isPressed() ? 1f : 0f));
