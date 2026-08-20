@@ -33,6 +33,10 @@ public class AutoEmoji extends Module {
         EMOJIS.put("B)", "😎");
         EMOJIS.put(":/", "😕");
         EMOJIS.put(":O", "😮");
+        EMOJIS.put(":skull:", "☠");
+        EMOJIS.put(":twin:", "✌");
+        EMOJIS.put(":meteor:", "☄");
+        EMOJIS.put(":tm:", "™");
 
 
         try {
