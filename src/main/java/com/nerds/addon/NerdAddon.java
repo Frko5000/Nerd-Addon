@@ -3,6 +3,7 @@ package com.nerds.addon;
 import com.mojang.logging.LogUtils;
 
 import com.nerds.addon.commands.Coords;
+import com.nerds.addon.commands.seeinv;
 import com.nerds.addon.hud.StatsHud;
 import com.nerds.addon.modules.*;
 import meteordevelopment.meteorclient.addons.GithubRepo;
@@ -25,13 +26,17 @@ public class NerdAddon extends MeteorAddon {
 
 
         Modules.get().add(new JoinLeaveNotify());
-		Modules.get().add(new WindowTitleRenamer());
+        Modules.get().add(new WindowTitleRenamer());
+        Modules.get().add(new Loadouts());
         Modules.get().add(new AutoEmoji());
         Modules.get().add(new FastSwim());
+        Modules.get().add(new SimplePresence());
 
 
         Commands.add(new Coords());
+        Commands.add(new seeinv());
 
+        // HUD
         Hud.get().register(StatsHud.INFO);
     }
 
@@ -39,6 +44,8 @@ public class NerdAddon extends MeteorAddon {
     public void onRegisterCategories() {
         Modules.registerCategory(CATEGORY);
     }
+
+
 
     @Override
     public String getPackage() {
